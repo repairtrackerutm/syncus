@@ -4,9 +4,9 @@
 'use strict';
 
 module.exports = function(app) {
-  app.dataSources.mysqlDs.automigrate('smsInbox', function(err) {
+  app.dataSources.mysqlDs.autoupdate('smsInbox', function(err) {
     if (err) throw err;
-
+/*
     app.models.smsInbox.create([
       {
         "fromPhoneNumber": "2345677",
@@ -19,5 +19,6 @@ module.exports = function(app) {
 
       console.log('Models created: \n',smsInboxes);
     });
+    */
   });
 };
