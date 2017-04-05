@@ -1,0 +1,30 @@
+{
+  "name": "smsInbox",
+  "plural": "smsInboxMessages",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fromPhoneNumber": {
+      "type": "string",
+      "required": true
+    },
+    "message": {
+      "type": "string",
+      "required": true
+    },
+    "fromContactName": {
+      "type": "string"
+    },
+    "read": {
+      "type": "boolean",
+      "default":false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
