@@ -6,10 +6,10 @@
   "mysqlDs": {
     "name": "mysqlDs",
     "connector": "mysql",
-    "host": "127.0.0.1",
+    "host": "wftuqljwesiffol6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "port": 3306,
-    "database": "syncus",
-    "username": "root",
-    "password": "root"
+    "database": "izy1w76q7xpf39bu",
+    "username": "h6flv2ilzxkkmk6u",
+    "password": "gohwg1ncnptiop62"
   }
 }
